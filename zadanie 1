@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+   int num;
+   cout<<"Введите ваше число"<<endl;
+   cin>>num;
+
+   int sum=0;
+   for(int i=-1;i>num;i-=20){
+       sum+=i;
+   }
+   cout<<"сумма ="<<sum<<endl;
+   return 0;
+}
